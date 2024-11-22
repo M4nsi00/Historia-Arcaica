@@ -21,10 +21,10 @@ def mapa():
     monstruos = 1
     #Para esta parte utilice el tema de choques
     while True:
-        print("El monstruo tiene una masa de 80 kg y esta en reposo, tu espada avanza hacia el con una masa de 10 kilogramos a una velocidad de 4 m/s \n")
+        print("El monstruo tiene una masa de 80 kg y esta en reposo, tu espada avanza hacia el con una masa de 10 kilogramos a una velocidad de 24 m/s \n")
         #En este caso se utiliza la formula de m1u1 + m2u2 = vc(u1+u2) + perdida
         #En este caso como el monstruo esta en reposo se cancela la parte de m2u2, y en este caso como pide calcular la perdida. Despejamos la formula de forma que queda m1u1 - vc(m1+m2) = perdida
-        energia = (10*4)-1*(80+10)
+        energia = (10*24)-1*(80+10)
         perdida_energia = int(input("¿Cuanta energía se pierde al momento de que estos dos colicionan si el sistema acaba con una velocidad de 1 m/s? "))
         if perdida_energia == energia:
             print("Haz vencido al monstruo")
